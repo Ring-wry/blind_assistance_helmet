@@ -1,0 +1,34 @@
+[4.859s] Invoking command in '/userdata/blind_road_test/src/blind_road_pkg': PYTHONPATH=/userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/blind_road_pkg build --build-base /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/build install --record /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/install.log --single-version-externally-managed install_data
+[6.573s] running egg_info
+[6.577s] creating build/blind_road_pkg/blind_road_pkg.egg-info
+[6.579s] writing build/blind_road_pkg/blind_road_pkg.egg-info/PKG-INFO
+[6.580s] writing dependency_links to build/blind_road_pkg/blind_road_pkg.egg-info/dependency_links.txt
+[6.581s] writing entry points to build/blind_road_pkg/blind_road_pkg.egg-info/entry_points.txt
+[6.582s] writing requirements to build/blind_road_pkg/blind_road_pkg.egg-info/requires.txt
+[6.582s] writing top-level names to build/blind_road_pkg/blind_road_pkg.egg-info/top_level.txt
+[6.583s] writing manifest file 'build/blind_road_pkg/blind_road_pkg.egg-info/SOURCES.txt'
+[6.592s] reading manifest file 'build/blind_road_pkg/blind_road_pkg.egg-info/SOURCES.txt'
+[6.596s] writing manifest file 'build/blind_road_pkg/blind_road_pkg.egg-info/SOURCES.txt'
+[6.597s] running build
+[6.597s] running build_py
+[6.598s] creating /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/build
+[6.598s] creating /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/build/lib
+[6.599s] creating /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/build/lib/blind_road_pkg
+[6.599s] copying blind_road_pkg/__init__.py -> /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/build/lib/blind_road_pkg
+[6.600s] running install
+[6.601s] running install_lib
+[6.606s] creating /userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/lib/python3.10/site-packages/blind_road_pkg
+[6.606s] copying /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/build/lib/blind_road_pkg/__init__.py -> /userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/lib/python3.10/site-packages/blind_road_pkg
+[6.609s] byte-compiling /userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/lib/python3.10/site-packages/blind_road_pkg/__init__.py to __init__.cpython-310.pyc
+[6.610s] running install_data
+[6.611s] creating /userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/ament_index
+[6.612s] creating /userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/ament_index/resource_index
+[6.612s] creating /userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/ament_index/resource_index/packages
+[6.613s] copying resource/blind_road_pkg -> /userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/ament_index/resource_index/packages
+[6.613s] copying package.xml -> /userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/blind_road_pkg
+[6.614s] running install_egg_info
+[6.623s] Copying build/blind_road_pkg/blind_road_pkg.egg-info to /userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/lib/python3.10/site-packages/blind_road_pkg-0.0.0-py3.10.egg-info
+[6.628s] running install_scripts
+[6.750s] Installing blind_road_node script to /userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/lib/blind_road_pkg
+[6.751s] writing list of installed files to '/userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/install.log'
+[6.968s] Invoked command in '/userdata/blind_road_test/src/blind_road_pkg' returned '0': PYTHONPATH=/userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/blind_road_pkg build --build-base /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/build install --record /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/install.log --single-version-externally-managed install_data

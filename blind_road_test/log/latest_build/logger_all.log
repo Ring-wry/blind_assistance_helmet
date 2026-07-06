@@ -1,0 +1,93 @@
+[0.762s] DEBUG:colcon:Command line arguments: ['/bin/colcon', 'build', '--packages-select', 'blind_road_pkg']
+[0.763s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['blind_road_pkg'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff869926e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff86992110>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff86992110>>)
+[2.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.056s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/userdata/blind_road_test/src/blind_road_pkg'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.156s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'blind_road_pkg'
+[2.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.394s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /userdata/dev_ws/install
+[2.398s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 57 installed packages in /opt/tros/humble
+[2.408s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/humble
+[2.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.709s] Level 5:colcon.colcon_core.verb:set package 'blind_road_pkg' build argument 'cmake_args' from command line to 'None'
+[2.709s] Level 5:colcon.colcon_core.verb:set package 'blind_road_pkg' build argument 'cmake_target' from command line to 'None'
+[2.709s] Level 5:colcon.colcon_core.verb:set package 'blind_road_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.710s] Level 5:colcon.colcon_core.verb:set package 'blind_road_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.710s] Level 5:colcon.colcon_core.verb:set package 'blind_road_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.710s] Level 5:colcon.colcon_core.verb:set package 'blind_road_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.710s] Level 5:colcon.colcon_core.verb:set package 'blind_road_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.710s] Level 5:colcon.colcon_core.verb:set package 'blind_road_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.711s] Level 5:colcon.colcon_core.verb:set package 'blind_road_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.711s] DEBUG:colcon.colcon_core.verb:Building package 'blind_road_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg', 'merge_install': False, 'path': '/userdata/blind_road_test/src/blind_road_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.712s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.717s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.718s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/userdata/blind_road_test/src/blind_road_pkg' with build type 'ament_python'
+[2.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('blind_road_pkg', 'ament_prefix_path')
+[2.734s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/blind_road_pkg/hook/ament_prefix_path.ps1'
+[2.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/blind_road_pkg/hook/ament_prefix_path.dsv'
+[2.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/blind_road_pkg/hook/ament_prefix_path.sh'
+[2.747s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.748s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.713s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/userdata/blind_road_test/src/blind_road_pkg'
+[4.715s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/blind_road_test/src/blind_road_pkg': PYTHONPATH=/userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/blind_road_pkg build --build-base /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/build install --record /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/install.log --single-version-externally-managed install_data
+[9.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/blind_road_test/src/blind_road_pkg' returned '0': PYTHONPATH=/userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/blind_road_pkg build --build-base /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/build install --record /userdata/blind_road_test/src/blind_road_pkg/build/blind_road_pkg/install.log --single-version-externally-managed install_data
+[9.745s] Level 1:colcon.colcon_core.environment:checking '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg' for CMake module files
+[9.747s] Level 1:colcon.colcon_core.environment:checking '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg' for CMake config files
+[9.751s] Level 1:colcon.colcon_core.environment:checking '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/lib'
+[9.752s] Level 1:colcon.colcon_core.environment:checking '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/bin'
+[9.752s] Level 1:colcon.colcon_core.environment:checking '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/lib/pkgconfig/blind_road_pkg.pc'
+[9.754s] Level 1:colcon.colcon_core.environment:checking '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/lib/python3.10/site-packages'
+[9.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('blind_road_pkg', 'pythonpath')
+[9.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/blind_road_pkg/hook/pythonpath.ps1'
+[9.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/blind_road_pkg/hook/pythonpath.dsv'
+[9.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/blind_road_pkg/hook/pythonpath.sh'
+[9.774s] Level 1:colcon.colcon_core.environment:checking '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/bin'
+[9.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(blind_road_pkg)
+[9.778s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/blind_road_pkg/package.ps1'
+[9.791s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/blind_road_pkg/package.dsv'
+[9.799s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/blind_road_pkg/package.sh'
+[9.811s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/blind_road_pkg/package.bash'
+[9.821s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/blind_road_pkg/package.zsh'
+[9.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/blind_road_test/src/blind_road_pkg/install/blind_road_pkg/share/colcon-core/packages/blind_road_pkg)
+[9.833s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.835s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.835s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.836s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.911s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.912s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.912s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.913s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.941s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[34.942s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.944s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/blind_road_test/src/blind_road_pkg/install/local_setup.ps1'
+[34.970s] INFO:colcon.colcon_core.shell:Creating prefix util module '/userdata/blind_road_test/src/blind_road_pkg/install/_local_setup_util_ps1.py'
+[34.980s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/blind_road_test/src/blind_road_pkg/install/setup.ps1'
+[34.995s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/blind_road_test/src/blind_road_pkg/install/local_setup.sh'
+[35.006s] INFO:colcon.colcon_core.shell:Creating prefix util module '/userdata/blind_road_test/src/blind_road_pkg/install/_local_setup_util_sh.py'
+[35.011s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/blind_road_test/src/blind_road_pkg/install/setup.sh'
+[35.024s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/blind_road_test/src/blind_road_pkg/install/local_setup.bash'
+[35.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/blind_road_test/src/blind_road_pkg/install/setup.bash'
+[35.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/blind_road_test/src/blind_road_pkg/install/local_setup.zsh'
+[35.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/blind_road_test/src/blind_road_pkg/install/setup.zsh'
